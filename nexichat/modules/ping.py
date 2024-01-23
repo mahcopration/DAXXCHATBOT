@@ -20,20 +20,20 @@ from nexichat.modules.helpers import PNG_BTN
 
 # Random Start Images
 IMG = [
-    "https://graph.org/file/210751796ff48991b86a3.jpg",
-    "https://graph.org/file/7b4924be4179f70abcf33.jpg",
-    "https://graph.org/file/f6d8e64246bddc26b4f66.jpg",
-    "https://graph.org/file/63d3ec1ca2c965d6ef210.jpg",
-    "https://graph.org/file/9f12dc2a668d40875deb5.jpg",
-    "https://graph.org/file/0f89cd8d55fd9bb5130e1.jpg",
-    "https://graph.org/file/e5eb7673737ada9679b47.jpg",
-    "https://graph.org/file/2e4dfe1fa5185c7ff1bfd.jpg",
-    "https://graph.org/file/36af423228372b8899f20.jpg",
-    "https://graph.org/file/c698fa9b221772c2a4f3a.jpg",
-    "https://graph.org/file/61b08f41855afd9bed0ab.jpg",
-    "https://graph.org/file/744b1a83aac76cb3779eb.jpg",
-    "https://graph.org/file/814cd9a25dd78480d0ce1.jpg",
-    "https://graph.org/file/e8b472bcfa6680f6c6a5d.jpg",
+    "https://graph.org/file/43a5426c1d658e4c20974.jpg",
+    "https://graph.org/file/cdead2380a39f7f06361a.jpg",
+    "https://graph.org/file/6ac152164dadffe7520dc.jpg",
+    "https://graph.org/file/13348ef13c7fdad4a508d.jpg",
+    "https://graph.org/file/4be7e2c8a576471bffc63.jpg",
+    "https://graph.org/file/c59d9903eb1be3e754197.jpg",
+    "https://graph.org/file/f8698e1128feca60789c1.jpg",
+    "https://graph.org/file/5b8220a5596d30aa66819.jpg",
+    "https://graph.org/file/da2c80fe08b1247377939.jpg",
+    "https://graph.org/file/b058022ec750ec3f12171.jpg",
+    "https://graph.org/file/38ab828a1603f12e08dfb.jpg",
+    "https://graph.org/file/4c0d723e9cf18437696cc.jpg",
+    "https://graph.org/file/183acc250f718121b9367.jpg",
+    "https://graph.org/file/0d4ad1c1c45e11a8381f5.jpg",
 ]
 
 
@@ -43,9 +43,9 @@ IMG = [
 
 # Random Stickers
 STICKER = [
-    "CAACAgUAAx0CYlaJawABBy4vZaieO6T-Ayg3mD-JP-f0yxJngIkAAv0JAALVS_FWQY7kbQSaI-geBA",
-    "CAACAgUAAx0CYlaJawABBy4rZaid77Tf70SV_CfjmbMgdJyVD8sAApwLAALGXCFXmCx8ZC5nlfQeBA",
-    "CAACAgUAAx0CYlaJawABBy4jZaidvIXNPYnpAjNnKgzaHmh3cvoAAiwIAAIda2lVNdNI2QABHuVVHgQ",
+    "CAACAgQAAxkBAAIB2GWwPEcf3R04dxaTQJzsfpuPeYNHAAIWAgAC4g3cJfv_Ze4DaXc2HgQ",
+    "CAACAgQAAxkBAAIB3GWwPF6OkUxEtqm0E0i_GAZk_1lOAAJrAgAC4g3cJStJo1WeIBCYHgQ",
+    "CAACAgQAAxkBAAIB3WWwPGBv89W7AVoFZFv53x-OYDMYAAJsAgAC4g3cJatDhZjYJhMmHgQ",
 ]
 
 #---------------STICKERS---------------#
@@ -67,7 +67,7 @@ async def ping(_, message: Message):
 
     ms = (datetime.now() - start).microseconds / 1000
     await loda.edit_text(
-        text=f"нey вαву!!\n{nexichat.name} ιѕ alιve 🥀 αnd worĸιng ғιne wιтн a pιng oғ\n➥ `{ms}` ms\n\n<b>|| мαdє ωιтн ❣️ ву [MRDAXX❣️](https://t.me/{OWNER_USERNAME}) ||</b>",
+        text=f"нey вαву!!\n{nexichat.name} ιѕ alιve 🥀 αnd worĸιng ғιne wιтн a pιng oғ\n➥ `{ms}` ms\n\n<b>|| мαdє ωιтн ❣️ ву [MAHSOOM❣️](https://t.me/{OWNER_USERNAME}) ||</b>",
         reply_markup=InlineKeyboardMarkup(PNG_BTN),
     )
     if message.chat.type == ChatType.PRIVATE:
